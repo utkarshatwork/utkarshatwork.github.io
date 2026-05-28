@@ -1,10 +1,8 @@
-
-/* --- 1. Variables (Modern Tech Palette) --- */
+/* --- 1. Variables (Orange Theme) --- */
 :root {
-    /* This template uses a professional "Modern Tech" color scheme. */
-    --primary-color: #1A2A4C;   /* Midnight Blue */
-    --secondary-color: #3D5A80; /* Slate Blue */
-    --accent-color: #29B6F6;    /* Vivid Sky Blue */
+    --primary-color: #E8650A;   /* Deep Orange - main backgrounds, header, footer */
+    --secondary-color: #F47B20; /* Mid Orange - borders, nav underline */
+    --accent-color: #FF9A45;    /* Light Orange - hover effects, icons, highlights */
 
     /* --- Shared Variables (These usually don't need to change) --- */
     --light-bg-color: #F8F9FA;
@@ -98,7 +96,7 @@ header p {
 
 /* --- 4. Navigation --- */
 nav {
-    background-color: rgba(26, 42, 76, 0.95); /* Adjusted for new primary color */
+    background-color: rgba(232, 101, 10, 0.95);
     backdrop-filter: blur(5px);
     position: sticky;
     top: 0;
@@ -130,7 +128,7 @@ nav ul li a::after {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: var(--accent-color);
+    background-color: var(--white-color);
     transition: width 0.4s ease;
 }
 
@@ -161,7 +159,7 @@ nav ul li a:hover::after {
     transform: translateX(-50%);
     width: 70px;
     height: 3px;
-    background: var(--accent-color);
+    background: var(--secondary-color);
 }
 
 /* --- 5.1 About Section --- */
@@ -262,7 +260,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background: var(--accent-color);
+    background: var(--secondary-color);
     color: var(--white-color);
     transform: translateY(-2px);
 }
@@ -311,7 +309,7 @@ nav ul li a:hover::after {
 
 .skill-header i {
     font-size: 2rem;
-    color: var(--accent-color);
+    color: var(--secondary-color);
     margin-right: 15px;
     width: 40px;
 }
@@ -341,7 +339,7 @@ nav ul li a:hover::after {
     position: absolute;
     left: 0;
     top: 12px;
-    color: var(--accent-color);
+    color: var(--secondary-color);
     font-weight: 700;
     font-size: 1.2rem;
 }
@@ -390,8 +388,8 @@ nav ul li a:hover::after {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px rgba(41, 182, 246, 0.25); /* Adjusted for new accent color */
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 3px rgba(244, 123, 32, 0.25);
 }
 
 .contact-form button.btn {

@@ -101,6 +101,7 @@ Once you commit your changes, your portfolio website will be live at `https://yo
 ## Author
 
 **Utkarsh Pandey**
+
 Data Analyst
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github&logoColor=white)](https://github.com/utkarshatwork)

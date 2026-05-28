@@ -1,8 +1,9 @@
-/* --- 1. Variables (Orange Theme) --- */
+/* --- 1. Variables (Modern Tech Palette) --- */
 :root {
-    --primary-color: #E8650A;   /* Deep Orange - main backgrounds, header, footer */
-    --secondary-color: #F47B20; /* Mid Orange - borders, nav underline */
-    --accent-color: #FF9A45;    /* Light Orange - hover effects, icons, highlights */
+    /* DebtStream Brand Colours */
+    --primary-color: #111A33;   /* DebtStream Navy */
+    --secondary-color: #F47B20; /* DebtStream Orange */
+    --accent-color: #F47B20;    /* DebtStream Orange */
 
     /* --- Shared Variables (These usually don't need to change) --- */
     --light-bg-color: #F8F9FA;
@@ -96,7 +97,7 @@ header p {
 
 /* --- 4. Navigation --- */
 nav {
-    background-color: rgba(232, 101, 10, 0.95);
+    background-color: rgba(17, 26, 51, 0.95);
     backdrop-filter: blur(5px);
     position: sticky;
     top: 0;
@@ -128,7 +129,7 @@ nav ul li a::after {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: var(--white-color);
+    background-color: var(--accent-color);
     transition: width 0.4s ease;
 }
 
@@ -159,7 +160,7 @@ nav ul li a:hover::after {
     transform: translateX(-50%);
     width: 70px;
     height: 3px;
-    background: var(--secondary-color);
+    background: var(--accent-color);
 }
 
 /* --- 5.1 About Section --- */
@@ -260,7 +261,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background: var(--secondary-color);
+    background: var(--accent-color);
     color: var(--white-color);
     transform: translateY(-2px);
 }
@@ -309,7 +310,7 @@ nav ul li a:hover::after {
 
 .skill-header i {
     font-size: 2rem;
-    color: var(--secondary-color);
+    color: var(--accent-color);
     margin-right: 15px;
     width: 40px;
 }
@@ -339,7 +340,7 @@ nav ul li a:hover::after {
     position: absolute;
     left: 0;
     top: 12px;
-    color: var(--secondary-color);
+    color: var(--accent-color);
     font-weight: 700;
     font-size: 1.2rem;
 }
@@ -388,7 +389,7 @@ nav ul li a:hover::after {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: var(--secondary-color);
+    border-color: var(--accent-color);
     box-shadow: 0 0 0 3px rgba(244, 123, 32, 0.25);
 }
 

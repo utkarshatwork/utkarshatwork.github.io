@@ -276,76 +276,76 @@ nav ul li a:hover::after {
     color: var(--white-color);
 }
 
-/* --- 6. Tabular Skills Section --- */
+/* --- 6. Skills Section (Redesigned) --- */
 #skills .container {
     max-width: 1100px;
 }
 
-.skills-table {
+.skills-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
     margin-top: 50px;
+}
+
+.skill-card {
     background-color: var(--card-bg-color);
-    padding: 40px;
     border-radius: 8px;
+    padding: 35px 35px 30px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.skill-column {
-    padding: 0 20px;
-}
-
-.skill-column:not(:last-child) {
-    border-right: 1px solid #e9ecef;
+.skill-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .skill-header {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #f1f3f5;
 }
 
 .skill-header i {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--accent-color);
-    margin-right: 15px;
-    width: 40px;
+    margin-right: 14px;
+    width: 36px;
 }
 
 .skill-header h3 {
     font-family: var(--font-heading);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--primary-color);
 }
 
-.skill-list {
-    list-style: none;
-    padding-left: 0;
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.skill-list li {
-    padding: 12px 0;
-    font-size: 1.05rem;
+.skill-tag {
+    display: inline-block;
+    background-color: var(--light-bg-color);
     color: var(--dark-text-color);
-    border-bottom: 1px solid #f1f3f5;
-    position: relative;
-    padding-left: 25px;
+    padding: 7px 16px;
+    border-radius: 20px;
+    font-size: 0.92rem;
+    font-family: var(--font-body);
+    border: 1px solid #e9ecef;
+    transition: all 0.25s ease;
 }
 
-.skill-list li::before {
-    content: '›';
-    position: absolute;
-    left: 0;
-    top: 12px;
-    color: var(--accent-color);
-    font-weight: 700;
-    font-size: 1.2rem;
+.skill-tag:hover {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    border-color: var(--accent-color);
 }
 
-.skill-list li:last-child {
-    border-bottom: none;
-}
 
 /* --- 7. Contact Form --- */
 #contact .container {
@@ -415,42 +415,26 @@ footer p {
 }
 
 /* --- 9. Responsive Design --- */
-@media (max-width: 992px) {
-    .skills-table {
-        grid-template-columns: 1fr 1fr;
-    }
-    .skill-column:nth-child(2) {
-        border-right: none;
-    }
-}
-
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.8rem;
     }
-    
+
     .about-content {
         flex-direction: column;
         text-align: center;
     }
 
     #projects .container {
-        padding: 0 5px; 
+        padding: 0 5px;
     }
 
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .skills-table {
+    .skills-grid {
         grid-template-columns: 1fr;
-        padding: 20px;
-        gap: 40px;
-    }
-
-    .skill-column:not(:last-child) {
-        border-right: none;
-        border-bottom: 1px solid #e9ecef;
-        padding-bottom: 30px;
     }
 }
+

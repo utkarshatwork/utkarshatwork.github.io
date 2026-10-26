@@ -41,15 +41,15 @@ A complete end-to-end e-commerce marketing analysis for Argos, a UK-based retail
 
 ---
 
-### Taylor and Francis: Marketing ROI Audit
+### Routledge: Marketing Analytics and FY2026 Budget
 
-An end-to-end marketing ROI audit for a global academic publishing firm, implementing a last-touch attribution model in SQL to evaluate the commercial return on a £650,000 marketing investment across four channels and twenty campaigns, with K-Means clustering for audience segmentation.
+End-to-end marketing analytics for a publisher's direct book sales, built on three years of data: a data audit, a reconciliation of platform claims against real orders, attribution under four rules, customer value and payback by channel, affiliate commission terms and an FY2026 paid media budget.
 
-**Tools:** MySQL · Python · Power BI
+**Tools:** BigQuery SQL · Python · Power BI
 
-**Key outcomes:** Identified a critical budget misallocation: Social Ads consumed 62% of total budget at a 0.53x ROAS (net loss of £187,000), while Email delivered a 28.57x ROAS on just 7.7% of budget. Corporate Pharma Research Scientists identified as the single most commercially valuable author segment at £677,500 in attributed revenue.
+**Key outcomes:** Over 51 weeks Google and Meta claimed 21,101 orders against 15,280 that happened, so the budget is set on internal ROAS (4.83), not the 5.83 the platforms report. 71.1% of coupon partner commission was paid on orders other channels won; two changes to commission terms would save $44,202 a year. Under position based attribution Google Brand's ROAS falls from 14.80 to 8.66 while Meta Prospecting's rises from 2.68 to 4.14 (FY2025).
 
-[View Repository](https://github.com/utkarshatwork/taylor-francis-marketing-analytics)
+[View Repository](https://github.com/utkarshatwork/routledge-marketing-analytics)
 
 ---
 

@@ -17,6 +17,18 @@ Skills demonstrated across projects:
 
 ## Projects
 
+### Routledge: Marketing Analytics and FY2026 Budget
+
+End-to-end marketing analytics for a publisher's direct book sales, built on three years of data: a data audit, a reconciliation of platform claims against real orders, attribution under four rules, customer value and payback by channel, affiliate commission terms and an FY2026 paid media budget.
+
+**Tools:** BigQuery SQL · Python · Power BI
+
+**Key outcomes:** Over 51 weeks Google and Meta claimed 21,101 orders against 15,280 that happened, so the budget is set on internal ROAS (4.83), not the 5.83 the platforms report. 71.1% of coupon partner commission was paid on orders other channels won; two changes to commission terms would save $44,202 a year. Under position based attribution Google Brand's ROAS falls from 14.80 to 8.66 while Meta Prospecting's rises from 2.68 to 4.14 (FY2025).
+
+[View Repository](https://github.com/utkarshatwork/routledge-marketing-analytics)
+
+---
+
 ### DebtStream: Digital Collections Analysis
 
 An end-to-end analytics project for a B2B SaaS fintech platform analysing 10,000 customer accounts to optimise a digital collections funnel, evaluate an SMS A/B test, and identify recovery risk segments across client portfolios.
@@ -38,18 +50,6 @@ A complete end-to-end e-commerce marketing analysis for Argos, a UK-based retail
 **Key outcomes:** Identified 58.95% cart abandonment as the single largest revenue leakage point, with Tablet and Email as the worst performing combination at 63.28%. Cannot Lose Them segment (738 customers, £366 average revenue, 1,072 days absent) identified as the highest-ROI reactivation opportunity. Champions and Loyal Customers generate 57.03% of total revenue from just 34.84% of the customer base.
 
 [View Repository](https://github.com/utkarshatwork/argos-ecommerce-marketing-analysis)
-
----
-
-### Routledge: Marketing Analytics and FY2026 Budget
-
-End-to-end marketing analytics for a publisher's direct book sales, built on three years of data: a data audit, a reconciliation of platform claims against real orders, attribution under four rules, customer value and payback by channel, affiliate commission terms and an FY2026 paid media budget.
-
-**Tools:** BigQuery SQL · Python · Power BI
-
-**Key outcomes:** Over 51 weeks Google and Meta claimed 21,101 orders against 15,280 that happened, so the budget is set on internal ROAS (4.83), not the 5.83 the platforms report. 71.1% of coupon partner commission was paid on orders other channels won; two changes to commission terms would save $44,202 a year. Under position based attribution Google Brand's ROAS falls from 14.80 to 8.66 while Meta Prospecting's rises from 2.68 to 4.14 (FY2025).
-
-[View Repository](https://github.com/utkarshatwork/routledge-marketing-analytics)
 
 ---
 
